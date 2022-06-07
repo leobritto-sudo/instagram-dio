@@ -33,7 +33,15 @@ body {
 }
 
 .instagram-phone img {
-    height: 50rem;
+    height: 45rem;
+}
+
+.instagram-phone img:nth-child(2) {
+    height: 38rem;
+    position: absolute;
+    top: 20px;
+    left: 15vw;
+    z-index: -1;
 }
 
 .instagram-continue {
@@ -51,36 +59,79 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #ffffff;
-    width: 100%;
-    padding: 1.3rem 0;
+    width: 90%;
+    padding: 1.3rem 2.5rem;
     border: 1px solid lightgray;
 }
 
 .group:nth-child(1) {
     min-height: 19rem;
+    margin-bottom: .8rem;
 }
 
 .instagram-logo {
-    height: 3rem;
+    padding: 2rem;
+    width: 90%;
+    height: auto;
 }
 
-.profile-photo {
+.input-login {
+    background-color: #F0F3F4;
+    padding: .6rem;
+    margin-bottom: .8rem;
+    width: 100%;
+    font-size: .9em;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #ced6de;
+}
+
+.or-div {
+    width: 100%;
+    margin: 1.5rem 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    border-radius: 50%;
-    overflow: hidden;
 }
 
-.profile-photo img {
-    height: 6rem;
+.or-div, .or-div hr {
+    color: #839192;
+    font-weight: bold;
+}
+
+.or {
+    margin: 0 1rem;
+}
+
+.line {
+    min-height: 1px;
+    width: 100%;
+}
+
+.img-facebook {
+    position: relative;
+    top: 5px;
+    width: 20px;
+}
+
+.link-color {
+    color: #146bdd;
+    margin-bottom: 1.5rem;
+}
+
+.link-forget-pass {
+    font-size: .9em;
+    color: #34495E;
 }
 
 .instagram-login {
+    width: 100%;
     background-color: #0095f6;
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
+    border: none;
+    cursor: pointer;
 }
 
 .instagram-logout {
@@ -89,7 +140,7 @@ body {
 }
 
 .not-account {
-    color: rgb(160, 160, 160);
+    color: rgb(122, 122, 122);
 }
 
 .link-blue {
@@ -102,7 +153,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 1.3rem 0;
+    padding: 1.3rem 0 0 0;
 }
 
 .download {
