@@ -1,10 +1,8 @@
-# Oi, tudo bem? Chegou aqui através do curso, certo? 🙃
+# Desafio: Intarface Instagram login
 
-Esse é o repositório da nossa aula de Flexbox, na qual vamos fazer a interface de login do Instagram! 
+Neste respositório foram feitas algumas evoluções à frente do Expert, nelas foram inseridas:
+- Uma interface de formulário para ser feito o login através de um endereço de e-mail, telefone, ou usuário e uma senha
+- Uma foto de celular por trás da principal
+- Um Favicon da logo do instagram
 
-### Os requisitos são:
-
-* [HTML básico](https://www.w3schools.com/html/)
-* [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-
-## 🚀 Let's code! 🚀
+## Sempre em busca de evolução 🚀
